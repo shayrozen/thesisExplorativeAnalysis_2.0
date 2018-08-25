@@ -455,6 +455,7 @@ pivot_table(ccdf, values=["cusID"],index=["movieID"], aggfunc= lambda x: len(x.u
 plt.xlabel("Num of customers", fontsize=10)  
 plt.ylabel("Count of Movies", fontsize=10)  
 plt.suptitle('Histogram plot: count cutomers per movie', fontsize=16)
+pass
 
 
 # ## Number of unique movies to be rated by customer
